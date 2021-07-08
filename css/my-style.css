@@ -1,0 +1,96 @@
+/* basic style */
+
+body {
+  background-color: #c5e9ff;
+}
+.main {
+  top: 50%;
+  left: 40%;
+  position: relative;
+  color: #fff;
+  margin: auto;
+}
+.main input {
+  padding: 10px 0 10px 10px;
+  border: 1px solid#1DA0F2;
+  border-radius: 10px;
+  margin: 40px 25px;
+  letter-spacing: 1px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/*
+
+	INSTRUCTIONS ---------------------------------------------------------------------------------
+  
+  1. link this stylesheet in the head of your HTML
+  	 <link href="YOUR PATH/my-style.css" rel="stylesheet" type="text/css" />
+     
+  2. Set the file name as data-theme attribute on your input
+  	 <input data-theme="my-style" />
+     
+  3. That's it!
+  
+  When you run script the style will be automatically applied.
+
+*/
+div.datedropper.my-style {
+  border-radius: 8px;
+  width: 180px;
+}
+div.datedropper.my-style .picker {
+  border-radius: 8px;
+  box-shadow: 0 0 32px 0px rgba(0, 0, 0, 0.1);
+}
+div.datedropper.my-style .pick-l {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+div.datedropper.my-style:before,
+div.datedropper.my-style .pick-submit,
+div.datedropper.my-style .pick-lg-b .pick-sl:before,
+div.datedropper.my-style .pick-m,
+div.datedropper.my-style .pick-lg-h {
+  background: #00B4DB;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+div.datedropper.my-style .pick-y.pick-jump,
+div.datedropper.my-style .pick li span,
+div.datedropper.my-style .pick-lg-b .pick-wke,
+div.datedropper.my-style .pick-btn {
+  color: #1da0f2;
+}
+div.datedropper.my-style .picker,
+div.datedropper.my-style .pick-l {
+  background-color :#000000;
+  background-image :linear-gradient(315deg, #000000 0%, #7f8c8d 74%); 
+}
+div.datedropper.my-style .picker,
+div.datedropper.my-style .pick-arw,
+div.datedropper.my-style .pick-l {
+  color: #fffefe;
+}
+div.datedropper.my-style .pick-m,
+div.datedropper.my-style .pick-m .pick-arw,
+div.datedropper.my-style .pick-lg-h,
+div.datedropper.my-style .pick-lg-b .pick-sl,
+div.datedropper.my-style .pick-submit {
+  color: #fff;
+}
+div.datedropper.my-style.picker-tiny:before,
+div.datedropper.my-style.picker-tiny .pick-m {
+  background-color: #fff;
+}
+div.datedropper.my-style.picker-tiny .pick-m,
+div.datedropper.my-style.picker-tiny .pick-m .pick-arw {
+  color: #4d4d4d;
+}
+div.datedropper.my-style.picker-lkd .pick-submit {
+  background-color: #fff;
+  color: #4d4d4d;
+}
+.pick-n::after {
+  background-color: rgba(221, 218, 218, 0.651) !important;
+}
